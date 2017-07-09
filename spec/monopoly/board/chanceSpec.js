@@ -1,14 +1,14 @@
 "use strict";
 
-const DescribedClass = lib("monopoly/communityChest");
+const DescribedClass = lib("monopoly/board/chance");
 
-describe("CommunityChest", () => {
+describe("Chance", () => {
   it("has a name", () => {
-    const chest = new DescribedClass({ name: "foo" });
-    expect(chest.name).toEqual("foo");
+    const chance = new DescribedClass({ name: "foo" });
+    expect(chance.name).toEqual("foo");
   });
 
-  it("pre-defines three community chests", () => {
+  it("pre-defines three chances", () => {
     const first = DescribedClass.FIRST;
     expect(first).toBeDefined();
 

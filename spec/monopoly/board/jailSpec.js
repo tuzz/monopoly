@@ -1,6 +1,6 @@
 "use strict";
 
-const DescribedClass = lib("monopoly/jail");
+const DescribedClass = lib("monopoly/board/jail");
 
 describe("Jail", () => {
   it("has a name", () => {
